@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EEE6FCE0-1E89-4743-AA0C-0A6E28BA26DA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectKJ</RootNamespace>
+    <AssemblyName>ProjectKJ</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Chart.aspx" />
+    <Content Include="Admin\Orders.aspx" />
+    <Content Include="Images\123.jpg" />
+    <Content Include="Images\125.jpg" />
+    <Content Include="Images\1253.jpg" />
+    <Content Include="Images\1254.jpg" />
+    <Content Include="Images\1399374216-men_image-checked-shirt.jpg" />
+    <Content Include="Images\20433032.jpg" />
+    <Content Include="Images\2SbBanner.jpg" />
+    <Content Include="Images\321.jpg" />
+    <Content Include="Images\940267406_750768735.jpg" />
+    <Content Include="Images\ccaac.jpg" />
+    <Content Include="Images\ccac.jpg" />
+    <Content Include="Images\ccacaacc.jpg" />
+    <Content Include="Images\ccacaca.jpg" />
+    <Content Include="Images\ccca.jpg" />
+    <Content Include="Images\cccaac.jpg" />
+    <Content Include="Images\faaaa.jpg" />
+    <Content Include="Images\fafa.jpg" />
+    <Content Include="Images\fafafafa.jpg" />
+    <Content Include="Images\ffadaf.jpg" />
+    <Content Include="Images\ffaf.jpg" />
+    <Content Include="Images\ffafaf.jpg" />
+    <Content Include="Images\ffafafaf.jpg" />
+    <Content Include="Images\fff.jpg" />
+    <Content Include="Images\fffa.jpg" />
+    <Content Include="Images\formal-look.jpg" />
+    <Content Include="Images\formal.jpg" />
+    <Content Include="Images\HTB1vm7EGVXXXXaIaXXXq6xXFXXXF.jpg" />
+    <Content Include="Images\jeans-featured.jpg" />
+    <Content Include="Images\levis.jpg" />
+    <Content Include="Images\Men-Slim-Jeans-Types-and-Styles-6.jpg" />
+    <Content Include="Images\mine.jpg" />
+    <Content Include="Images\KJ.jpg" />
+    <Content Include="Images\itemEleven.png" />
+    <Content Include="Images\itemFifteen.png" />
+    <Content Include="Images\itemFive.png" />
+    <Content Include="Images\itemFour.png" />
+    <Content Include="Images\itemFourteen.png" />
+    <Content Include="Images\itemNine.png" />
+    <Content Include="Images\itemSix.png" />
+    <Content Include="Images\itemTen.png" />
+    <Content Include="Images\itemThirteen.png" />
+    <Content Include="Images\itemThree.png" />
+    <Content Include="Images\itemTwelve.png" />
+    <Content Include="Images\itemTwo.png" />
+    <Content Include="Images\polo.jpg" />
+    <Content Include="Images\US-Polo-Assn-Men-Jeans.jpg" />
+    <Content Include="Manager.aspx" />
+    <Content Include="OrderForm.aspx" />
+    <Content Include="Products_1.aspx" />
+    <Content Include="Products_2.aspx" />
+    <Content Include="Products_3.aspx" />
+    <Content Include="Script\bootstrap.min.js" />
+    <Content Include="Script\holder.js" />
+    <Content Include="Script\ie-emulation-modes-warning.js" />
+    <Content Include="Script\ie10-viewport-bug-workaround.js" />
+    <Content Include="Script\jquery.min.js" />
+    <Content Include="Images\cart.ico" />
+    <Content Include="Images\Chrysanthemum.jpg" />
+    <Content Include="Site.Master" />
+    <Content Include="Admin\AdminMaster.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="packages.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="SignIn.aspx" />
+    <Content Include="Styles\MasterPage.css" />
+    <Content Include="Styles\SignIn.css" />
+    <Content Include="Styles\simple-sidebar-manager.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Home.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Chart.aspx.cs">
+      <DependentUpon>Chart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Chart.aspx.designer.cs">
+      <DependentUpon>Chart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Orders.aspx.cs">
+      <DependentUpon>Orders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Orders.aspx.designer.cs">
+      <DependentUpon>Orders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.aspx.cs">
+      <DependentUpon>Manager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager.aspx.designer.cs">
+      <DependentUpon>Manager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderForm.aspx.cs">
+      <DependentUpon>OrderForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderForm.aspx.designer.cs">
+      <DependentUpon>OrderForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Products_1.aspx.cs">
+      <DependentUpon>Products_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products_1.aspx.designer.cs">
+      <DependentUpon>Products_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Products_2.aspx.cs">
+      <DependentUpon>Products_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products_2.aspx.designer.cs">
+      <DependentUpon>Products_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Products_3.aspx.cs">
+      <DependentUpon>Products_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products_3.aspx.designer.cs">
+      <DependentUpon>Products_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54790</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54790/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

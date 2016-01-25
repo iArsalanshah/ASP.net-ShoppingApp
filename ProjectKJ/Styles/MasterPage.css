@@ -1,0 +1,37 @@
+﻿#myCarousel .item img{
+  display: block;
+  width: 100%;
+  max-height: 420px;
+  min-height:256px;
+}
+
+.navbar-static-bottom a{
+    color:rgb(102, 153, 153);
+    font-family:'Century Gothic' Sans-serif;
+    font-size:14px;
+    
+}
+
+.navbar-static-bottom {
+    padding-top:18px;
+}
+
+.navbar-static-bottom a:hover{
+    color:rgb(142, 213, 213);
+    text-decoration:none;
+}
+.text-center {
+    color:white;
+}
+.featurette-image {
+height:500px;
+width:500px;
+}
+.featurette-image:hover  {
+border-bottom:2px solid rgb(52, 134, 195);
+    opacity:0.7;
+    border-bottom-left-radius:30px;
+}
+.img-responsive {
+border-bottom:1px solid rgb(52, 134, 195);
+}
